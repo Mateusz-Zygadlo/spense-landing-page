@@ -3,7 +3,9 @@ import {
   Navbar,
 } from '../components'
 import {
-  Main
+  Main,
+  Companies,
+  Banner,
 } from '../components/home'
 import { INFORMATION_BAR_CONTENT } from '../content'
 
@@ -15,6 +17,8 @@ export const Home = () => {
       <div className="bg-black text-white font-semibold flex items-center justify-center py-1 px-10 text-center">{p}</div>
       <Navbar />
       <Main />
+      <Companies />
+      <Banner />
     </div>
   )
 }

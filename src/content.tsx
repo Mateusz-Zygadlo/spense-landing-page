@@ -28,3 +28,25 @@ export const MAIN_CONTENT = {
     desktop: Images.HeroImageDesktop
   }
 }
+
+export const COMPANIES_CONTENT = [
+  Images.FacebookLogo,
+  Images.DribbbleLogo,
+  Images.YoutubeLogo,
+  Images.PinterestLogo,
+  Images.TwitterLogo,
+  Images.RedditLogo,
+  Images.GoogleLogo,
+  Images.SlackLogo,
+]
+
+export const BANNER_CONTENT = {
+  h1: 'Secure your money with Escrow.',
+  p: 'Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments, so you never need to worry about scams.',
+  a: 'Learn more about Escrow',
+  main_img: {
+    mobile: Images.PhoneMockupMobile,
+    tablet: Images.PhoneMockupTablet,
+    desktop: Images.PhoneMockupTablet,
+  }
+}
