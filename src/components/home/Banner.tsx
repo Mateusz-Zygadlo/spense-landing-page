@@ -8,7 +8,7 @@ export const Banner = () => {
   const { h1, p, a, main_img } = BANNER_CONTENT
 
   return (
-    <div className="px-5 md:px-16 lg:px-24 mb-10">
+    <div className="px-5 md:px-16 lg:px-24">
       <div className="w-full bg-beige flex flex-col lg:flex-row justify-center lg:justify-between items-center px-10 pt-10 mt-10 rounded-lg">
         <div className="w-full lg:max-w-[30rem] lg:mr-10 lg:pb-10">
           <h1 className="text-3xl lg:text-4xl font-bold">{h1}</h1>

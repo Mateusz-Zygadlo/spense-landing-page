@@ -50,3 +50,10 @@ export const BANNER_CONTENT = {
     desktop: Images.PhoneMockupTablet,
   }
 }
+
+export const EDITOR_CONTENT = {
+  main_img: Images.TextEditor,
+  h1: 'A text editor like no other.',
+  p: "Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.",
+  a: 'Text Editor Live Demo'
+}

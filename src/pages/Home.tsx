@@ -1,11 +1,13 @@
 import React from 'react'
 import {  
   Navbar,
+  Footer,
 } from '../components'
 import {
   Main,
   Companies,
   Banner,
+  Editor
 } from '../components/home'
 import { INFORMATION_BAR_CONTENT } from '../content'
 
@@ -19,6 +21,8 @@ export const Home = () => {
       <Main />
       <Companies />
       <Banner />
+      <Editor />
+      <Footer />
     </div>
   )
 }
